@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+
+/* CSS reset */
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Button base */
+.button {
+  position: relative;
+  background-color: #ff583d;
+  color: #222224;
+  border: none;
+  margin: 1rem;
+  margin-bottom: 3.2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1;
+  overflow: hidden;
+  padding: 1.2rem 2.4rem;
+  transition: all 0.3s ease-out;
+}
+/* Button 1 */
+
+/* Button 2 */
+
+/* Button 3 */

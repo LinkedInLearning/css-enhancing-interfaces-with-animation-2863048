@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+
+/* CSS reset */
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  position: relative;
+  background-color: #ff583d;
+  color: #222224;
+  border: none;
+  margin: 1rem;
+  margin-bottom: 3.2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1;
+  overflow: hidden;
+  padding: 1.2rem 2.4rem;
+  transition: all 0.3s ease-out;
+}
+/* Button 1 */
+.button_1:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #f0c808;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  transform-origin: bottom left;
+  transform: translateX(-20rem);
+  transition: transform 0.5s;
+}
+
+.button_1:hover:before {
+  transform: translateX(0px);
+}
+.button_1:hover {
+  color: white;
+  background-color: transparent;
+}
+
+/* Button 2*/
+.button_2:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  height: 100%;
+  width: 100%;
+  background-color: #f0c808;
+  z-index: -1;
+  transform: translateY(-100%);
+  transition: all 0.2s ease-out;
+}
+
+.button_2:hover:before {
+  transform: translateY(0);
+}
+
+.button_2:hover {
+  color: white;
+  background: transparent;
+}
+
+/* Button 3 */
+.button_3:hover {
+  transform: translateY(-2px) scale(1.1);
+  background: #f0c808;
+  color: white;
+}

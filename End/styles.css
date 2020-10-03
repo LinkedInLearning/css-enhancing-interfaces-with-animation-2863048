@@ -1,0 +1,93 @@
+/* CSS reset */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  position: relative;
+  max-width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.robot {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+.mask {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.shop {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  box-shadow: 0 0 1px #000;
+  opacity: 0;
+  transform: scale(0);
+  transition: all 0.5s linear;
+}
+
+.robot img {
+  border-radius: 50%;
+  width: 100%;
+  object-fit: contain;
+  transform: scale(0.8);
+  transition: all 0.7s ease-in-out;
+}
+.mask {
+  background-color: rgba(38, 95, 142, 0.4);
+  transition: all 0.5s linear;
+  opacity: 0;
+}
+.robot h2 {
+  font-size: 3rem;
+  margin: 20px 40px 20px 40px;
+  transform: scale(0);
+  color: #333;
+  transition: all 0.5s linear;
+  opacity: 0;
+}
+/* Hover animations */
+.robot:hover img {
+  transform: scale(10);
+  opacity: 0;
+}
+.robot:hover .mask {
+  opacity: 1;
+}
+.robot:hover h2,
+.robot:hover .shop {
+  transform: scale(1);
+  opacity: 1;
+}
+/* link animation on hover */
+.shop:hover {
+  background: white;
+  color: #333;
+}

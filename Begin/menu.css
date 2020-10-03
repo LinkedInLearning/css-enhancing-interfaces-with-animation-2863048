@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+
+/* CSS reset */
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  height: 100vh;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+li {
+  overflow: hidden;
+}
+a {
+  color: #3a3a3d;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-decoration: none;
+  position: relative;
+  transition: all 0.3s ease-out;
+}
+/* Menu Animations */

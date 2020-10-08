@@ -38,6 +38,9 @@ body {
   overflow: hidden;
   top: 0;
   left: 0;
+  background-color: rgba(38, 95, 142, 0.4);
+  transition: all 0.5s linear;
+  opacity: 0;
 }
 
 .shop {
@@ -53,19 +56,13 @@ body {
   transition: all 0.5s linear;
 }
 
-.robot img {
-  border-radius: 50%;
+img {
   width: 100%;
   object-fit: contain;
   transform: scale(0.8);
   transition: all 0.7s ease-in-out;
 }
-.mask {
-  background-color: rgba(38, 95, 142, 0.4);
-  transition: all 0.5s linear;
-  opacity: 0;
-}
-.robot h2 {
+h2 {
   font-size: 3rem;
   margin: 20px 40px 20px 40px;
   transform: scale(0);

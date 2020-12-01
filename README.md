@@ -1,5 +1,7 @@
 # COURSENAME
-This is the repository for the LinkedIn Learning course `[COURSENAME]`. The full course is available from [LinkedIn Learning](https://linkedin.com/learning/).
+This is the repository for the LinkedIn Learning course CSS: Enhancing Interfaces with Animation
+with: Christina Gorton. 
+The full course is available from [LinkedIn Learning](https://linkedin.com/learning/).
 
 [![COURSENAME](COURSEIMAGE)](LICOURSEURL)
 
@@ -14,6 +16,6 @@ Some branches will have a beginning and an end state. These are marked with the 
 
 ## Installing
 1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
+	- a text editor of your choice. I use [VS Code](https://code.visualstudio.com/)in this course. 
 2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+3. Check out the corresponding branch for each video to follow along with the code. 

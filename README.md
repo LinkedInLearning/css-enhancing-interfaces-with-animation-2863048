@@ -1,4 +1,4 @@
-# COURSENAME
+# CSS: Enhancing Interfaces with Animation
 This is the repository for the LinkedIn Learning course CSS: Enhancing Interfaces with Animation
 with: Christina Gorton. 
 The full course is available from [LinkedIn Learning](https://linkedin.com/learning/).
